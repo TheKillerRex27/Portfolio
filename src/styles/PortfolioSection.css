@@ -1,0 +1,50 @@
+.portfolio-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #2E0006;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+}
+
+.portfolio-title {
+    display: flex;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 1.875rem;
+    font-weight: 700;
+    letter-spacing: 0.66631rem;
+    border: 5px solid white;
+    padding: 1.2rem;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 3rem;
+}
+
+.project-screenshot {
+    width: 35rem;
+    height: auto;
+}
+
+@media only screen and (max-width: 1200px){
+    .portfolio-section{
+        padding: 2rem 2rem;
+    }
+
+    .portfolio-title {
+        font-size: 1.2rem;
+    }
+
+    .projects {
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .project-screenshot {
+        width: 100vw;
+        height: auto;
+        
+    }
+}

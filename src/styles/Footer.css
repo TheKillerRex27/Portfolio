@@ -1,0 +1,38 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1A1A1A;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.back-top {
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 0.9375rem;
+    font-weight: 700;
+    letter-spacing: 0.17381rem;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.socials img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.footer-text {
+    color: #FFF;
+    font-family: 'Nunito';
+    font-style: normal;
+    line-height: normal;
+}

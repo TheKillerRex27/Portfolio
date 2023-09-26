@@ -1,0 +1,72 @@
+.about-me-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 7rem 20rem;
+}
+
+.about-me-title {
+    display: flex;
+    font-family: 'Montserrat';
+    font-size: 1.875rem;
+    font-weight: 700;
+    letter-spacing: 0.66631rem;
+    border: 5px solid black;
+    padding: 1.2rem;
+}
+
+.about-me-text {
+    color: #050505;
+    text-align: justify;
+    font-family: 'Open Sans';
+    font-size: 0.9rem;
+    line-height: 140%;
+}
+
+.field-title {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 1.375rem;
+    font-weight: 700;
+    letter-spacing: 0.25488rem;
+}
+
+.field-text {
+    width: auto;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 0.875rem;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 1200px){
+    .about-me-section {
+        padding: 2rem 2rem;
+    }
+
+    .about-me-title {
+        font-size: 1.2rem;
+    }
+
+    .about-me-text {
+        font-size: 0.75rem;
+    }
+
+    .about-fields {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .field-title {
+        width: 80vw;
+        font-size: 1rem;
+    }
+
+    .field-text {
+        font-size: 0.7rem;
+    }
+}

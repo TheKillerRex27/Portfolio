@@ -1,0 +1,58 @@
+.navbar {
+    position: fixed;
+    background: #000000;
+    font-family: 'Montserrat', sans-serif;
+    padding: .5rem 0;
+    width: 100vw;
+    height: 3.125rem;
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style: none;
+    margin: 0;
+    padding-right: 3rem;
+}
+
+.nav-link {
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 0.94rem 3rem;
+}
+
+.nav-link a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.contact-button {
+    cursor: pointer;
+    background-color: #61000D;
+    color: #FFF;
+    border: none;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0.6rem 1rem;
+    margin: 0.4rem 0;
+}
+
+@media only screen and (max-width: 1200px){
+    .navbar ul {
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 600px){
+	.nav-link {
+        font-size: 0.7rem;
+        margin: 0.94rem 1.4rem;
+    }
+
+    .contact-button {
+        padding: 0.5rem 1.2rem;
+        font-size: 0.7rem;
+    }
+}

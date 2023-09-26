@@ -1,0 +1,43 @@
+.occupation {
+    background-image: url(../assets/Occupation-background.png);
+    height: 15rem;
+    margin: 0;
+    padding: 1rem 2rem;
+}
+
+.occupation-heading {
+    margin: 1.5rem 0;
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 0.34756rem;
+}
+
+.occupation-text {
+    width: 50rem;
+    color: #FFF;
+    text-align: justify;
+    font-family: 'Open Sans';
+}
+
+@media only screen and (max-width: 1200px){
+    .occupation {
+        height: 25vh;
+    }
+
+    .occupation-heading {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .occupation-text {
+        margin: auto;
+        width: 70vw;
+    }
+}
+@media only screen and (max-width: 600px){
+	.occupation {
+        height: 45vh;
+    }
+}

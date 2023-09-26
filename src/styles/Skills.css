@@ -1,0 +1,73 @@
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 7rem 20rem;
+}
+
+.skills-title {
+    display: flex;
+    font-family: 'Montserrat';
+    font-size: 1.875rem;
+    font-weight: 700;
+    letter-spacing: 0.66631rem;
+    border: 5px solid black;
+    padding: 1.2rem;
+}
+
+.tech-logos-title {
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.34756rem;
+    padding: 2rem 0
+}
+
+.tech-logos {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 9rem;
+}
+
+.tech-block {
+    text-align: center;
+}
+
+.tech-logo {
+    width: 5.7rem;
+    height: 6.25rem;
+}
+
+.tech-name {
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    letter-spacing: 0.20306rem;
+}
+
+@media only screen and (max-width: 1200px){
+    .skills-section {
+        padding: 2rem 2rem;
+    }
+
+    .skills-title {
+        font-size: 1.2rem;
+    }
+
+    .tech-logos-title {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .tech-logos {
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .field-text {
+        width: 100vw;
+        font-size: 0.7rem;
+    }
+}
